@@ -57,6 +57,6 @@ engine.train(model=model,
              device=device)
 
 # Save the model with help from utils.py
-utils.save_model(model=model,
+Utils.save_model(model=model,
                  target_dir="models",
                  model_name="05_going_modular_script_mode_tinyvgg_model.pth")
